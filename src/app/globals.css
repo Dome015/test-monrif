@@ -1,27 +1,37 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto/Roboto-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto/Roboto-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto/Roboto-Italic.ttf');
+  font-weight: normal;
+  font-style: italic;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto/Roboto-BoldItalic.ttf');
+  font-weight: bold;
+  font-style: italic;
+}
+
+* {
+  font-family: Roboto;
+  --offwhite: rgb(240, 240, 240);
+  --lightblue: rgb(122, 184, 255);
+}
+
+.main-container {
+  margin-bottom: 4em;
 }

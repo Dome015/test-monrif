@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+
+.post-img {
+  max-width: 150px;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+}
+
+.post-title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  color: gray;
+}
